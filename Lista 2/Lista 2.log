@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.4)  24 AUG 2019 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.4)  24 AUG 2019 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,26 +510,32 @@ senta re-sist^encia
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./porta_NOR_3_entradas.png
-> <./porta_NAND_3_entradas.png>] [2] (./Lista 2.aux) ) 
+> <./porta_NAND_3_entradas.png>]
+<questao_4.png, id=16, 443.40656pt x 371.88937pt>
+File: questao_4.png Graphic file (type png)
+<use questao_4.png>
+Package pdftex.def Info: questao_4.png  used on input line 48.
+(pdftex.def)             Requested size: 341.43306pt x 286.37839pt.
+ [2 <./questao_4.png>] (./Lista 2.aux) ) 
 Here is how much of TeX's memory you used:
- 2341 strings out of 492982
- 31137 string characters out of 6134897
+ 2346 strings out of 492982
+ 31221 string characters out of 6134897
  96551 words of memory out of 5000000
- 5878 multiletter control sequences out of 15000+600000
+ 5882 multiletter control sequences out of 15000+600000
  7895 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,276b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on "Lista 2.pdf" (2 pages, 88930 bytes).
+</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on "Lista 2.pdf" (2 pages, 117553 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
