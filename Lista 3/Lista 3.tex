@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\begin{document}
+	\begin{itemize}
+		\item[1 -]
+			\hfill\newline
+			Temos as seguintes instruções:		
+			\begin{center}
+				\begin{tabular}{cl}
+					1: & $A = B + 2$\\
+					2: & $B = C$\\
+					3: & $E = A + B$\\
+					4: & $B = 0$\\
+					5: & $F = B + 1$\\				
+				\end{tabular}			
+			\end{center}
+			Identificamos as dependências utilizando:\\
+			\begin{center}
+				\begin{tabular}{ll}
+			$x \ \longrightarrow^v \ y$ & Dependência verdadeira\\
+			$x \ \longrightarrow^{anti} \ y$ & Anti-dependência\\
+			$x \ \longrightarrow^{saida} \ y$ & Dependência de saída\\		
+				\end{tabular}			
+			\end{center}
+			Onde $x$ e $y$ são as instruções {1, 2, 3, 4, 5} listadas
+			acima.\\
+			
+			Portanto temos:\\
+			\begin{center}
+				$1 \ \longrightarrow^v \ 3$\\
+				$2 \ \longrightarrow^v \ 3$\\
+				$4 \ \longrightarrow^v \ 5$\\
+				\hfill\newline
+				$1 \ \longrightarrow^{anti} \ 2$\\
+				$1 \ \longrightarrow^{anti} \ 4$\\
+				$3 \ \longrightarrow^{anti} \ 4$\\
+				\hfill\newline
+				$2 \ \longrightarrow^{saida} \ 4$\\
+			\end{center}
+	\end{itemize}
+\end{document}
