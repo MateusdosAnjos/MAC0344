@@ -51,15 +51,27 @@ Lista de Exercícios No. 3
 			\end{center}
 		\item[\textbf{2 -}]
 			\hfill\newline
-			Para remover as anti-dependências e as dependências de saída 
-			devemos fazer o seguinte:
+			Para remover as anti-dependências e as dependências de saída  devemos
+			renomear algumas variáveis, obtendo:
 			\begin{center}
 				\begin{tabular}{cl}
 					1: & $A = B + 2$\\
-					2: & $E = A + C$\\
-					3: & $B = 0$\\
-					4: & $F = B + 1$\\				
+					2: & $X = C$\\
+					3: & $E = A + X$\\
+					4: & $B = 0$\\
+					5: & $F = B + 1$\\		
 				\end{tabular}			
 			\end{center}
+			Desta forma ficamos apenas com as dependências:
+			\begin{center}
+				$1 \ \longrightarrow^v \ 3$\\
+				$2 \ \longrightarrow^v \ 3$\\
+				$4 \ \longrightarrow^v \ 5$\\
+			\end{center}
+			Perceba que $X$ foi criado para eliminar \{$1 \ \longrightarrow^{anti} \ 2$,
+			$3 \ \longrightarrow^{anti} \ 4$, $2 \ \longrightarrow^{saida} \ 4$\}\\
+			Mantendo a valoração final de {A, B, E, F} igual a valoração obtida pelo
+			código do exercício 1, porém eliminando as anti-dependências e as 
+			dependências de saída.
 	\end{itemize}
 \end{document}
