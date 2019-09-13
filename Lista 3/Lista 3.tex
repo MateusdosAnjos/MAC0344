@@ -55,23 +55,16 @@ Lista de Exercícios No. 3
 			renomear algumas variáveis, obtendo:
 			\begin{center}
 				\begin{tabular}{cl}
-					1: & $A = B + 2$\\
-					2: & $X = C$\\
-					3: & $E = A + X$\\
-					4: & $B = 0$\\
-					5: & $F = B + 1$\\		
+					1: & $B1 = B$\\
+					2: & $A = B1 + 2$\\
+					3: & $B2 = C$\\
+					4: & $E = A + B2$\\
+					5: & $B = 0$\\
+					6: & $F = B + 1$\\		
 				\end{tabular}			
 			\end{center}
-			Desta forma ficamos apenas com as dependências:
-			\begin{center}
-				$1 \ \longrightarrow^v \ 3$\\
-				$2 \ \longrightarrow^v \ 3$\\
-				$4 \ \longrightarrow^v \ 5$\\
-			\end{center}
-			Perceba que $X$ foi criado para eliminar \{$1 \ \longrightarrow^{anti} \ 2$,
-			$3 \ \longrightarrow^{anti} \ 4$, $2 \ \longrightarrow^{saida} \ 4$\}\\
-			Mantendo a valoração final de {A, B, E, F} igual a valoração obtida pelo
-			código do exercício 1, porém eliminando as anti-dependências e as 
-			dependências de saída.
+			Perceba que agora podemos paralelizar as operações em 2 e 3 (mas a operação
+			1 ainda deve ser executada antes) e podemos paralelizar as operações 4 e 5 (mas
+			a operação 3 ainda deve ser executada antes).
 	\end{itemize}
 \end{document}
