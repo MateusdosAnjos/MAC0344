@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage[portuguese]{babel}
 \usepackage{float}
+\usepackage{xcolor}
 
 \title{MAC0344 Arquitetura de Computadores\\
 Lista de Exercícios No. 4
@@ -76,6 +77,27 @@ Lista de Exercícios No. 4
 					$x_{11}$ & = & 1\\
 				\end{tabular}
 			\end{center}
+		\newpage
 		\item[\textbf{2 -}]
+		\hfill\newline
+			Para detectar erros primeiro devemos comparar cada $x_\alpha$ com seu respectivo $y_\alpha$,
+			veja a tabela de comparação abaixo:
+			\begin{center}
+				\begin{tabular}{ccc|ccc}
+					$y_1$ & = & 0 & 0 & = & $x_1$\\
+					\color{red}$y_2$ & \color{red} = & \color{red}0 &
+					\color{red}1 & \color{red} = & \color{red}$x_2$\\
+					$y_3$ & = & 1 & 1 & = & $x_3$\\
+					$y_4$ & = & 1 & 1 & = & $x_4$\\
+					\color{red}$y_5$ & \color{red} = & \color{red} 0 &
+					\color{red} 1 & \color{red} = & \color{red} $x_5$\\
+					$y_6$ & = & 0 & 0 & = & $x_6$\\
+					$y_7$ & = & 0 & 0 & = & $x_7$\\
+					$y_8$ & = & 0 & 0 & = & $x_8$\\
+					$y_9$ & = & 1 & 1 & = & $x_9$\\
+					$y_{10}$ & = & 0 & 0 & = & $x_{10}$\\
+					$y_{11}$ & = & 1 & 1 & = & $x_{11}$\\
+				\end{tabular}
+			\end{center}		
 	\end{itemize}
 \end{document}
