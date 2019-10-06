@@ -114,9 +114,22 @@ Lista de Exercícios No. 4
 						\begin{tabular}{ccl}
 							$k_1$ & = & $y_1 \oplus y_3 \oplus y_5 \oplus y_7 \oplus y_9 \oplus y_{11}$\\
 							$k_2$ & = & $y_2 \oplus y_3 \oplus y_6 \oplus y_7 \oplus y_{10} \oplus y_{11}$\\
-							$k_4$ & = & $y_4 \oplus y_5 \oplus y_6 \oplus y_7$\\
-							$k_8$ & = & $y_8 \oplus y_9 \oplus y_{10} \oplus y_{11}$\\
+							$k_3$& = & $y_4 \oplus y_5 \oplus y_6 \oplus y_7$\\
+							$k_4$ & = & $y_8 \oplus y_9 \oplus y_{10} \oplus y_{11}$\\
 						\end{tabular}
 					\end{center}
+					O cálculo de $k_1, k_2, k_3, k_4$  gerará o número binário codificado pelos 4 bits,
+					$k_4k_3k_2k_1$, que determina a posição do bit lido que está errado.\\
+					Calculando $k_1, k_2, k_3, k_4$ utilizando a fórmula acima, chegamos em:\\
+					\begin{center}
+						\begin{tabular}{ccl}
+							$k_1$ & = & $1$\\
+							$k_2$ & = & $0$\\
+							$k_3$& = & $1$\\
+							$k_4$ & = & $0$\\
+						\end{tabular}
+					\end{center}
+					Portanto, \textbf{o bit na posição 5 (0101) está errado}, pois tem o valor $0$ e 
+					deveria ser $1$.
 	\end{itemize}
 \end{document}
