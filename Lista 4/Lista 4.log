@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  6 OCT 2019 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  6 OCT 2019 22:51
 entering extended mode
 **"./Lista 4.tex"
 ("Lista 4.tex"
@@ -506,11 +506,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--53
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 108--115
 
  []
 
-[3] ("Lista 4.aux") ) 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+[4] ("Lista 4.aux") ) 
 Here is how much of TeX's memory you used:
  2803 strings out of 493323
  35695 string characters out of 3139059
@@ -518,16 +523,16 @@ Here is how much of TeX's memory you used:
  6313 multiletter control sequences out of 15000+200000
  7895 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,35p,253b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,35p,253b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Lista 4.pdf" (3 pages, 74371 bytes).
+Output written on "Lista 4.pdf" (4 pages, 75000 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

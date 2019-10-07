@@ -105,8 +105,8 @@ Lista de Exercícios No. 4
 					$y_{11}$ & = & 1\\
 				\end{tabular}
 			\end{center}
-			\subitem\textbf{Identificando se há erro:}
-					\hfill\newline
+			\textbf{Identificando se há erro:}
+					\hfill\newline\hfill\newline
 					Para detectar erros primeiro devemos calcular $k_1, k_2, k_3, k_4$.\\
 					Se $k_1 = k_2 = k_3 = k_4 = 0$, então não há erros.\\
 					Se houver erro, então o erro estará na posição codificada  por $k_4k_3k_2k_1$
@@ -120,7 +120,17 @@ Lista de Exercícios No. 4
 							$k_4$ & = & $y_8 \oplus y_9 \oplus y_{10} \oplus y_{11}$\\
 						\end{tabular}
 					\end{center}
-					Calculando $k_1, k_2, k_3, k_4$ utilizando a fórmula acima, chegamos em:\\
+					Substituindo os valores temos:
+					\begin{center}
+						\begin{tabular}{ccl}
+							$k_1$ & = & $0 \oplus 1 \oplus 0 \oplus 0 \oplus 1 \oplus 1$\\
+							$k_2$ & = & $0 \oplus 1 \oplus 0 \oplus 0 \oplus 0 \oplus 1$\\
+							$k_3$& = & $1 \oplus 0 \oplus 0 \oplus 0$\\
+							$k_4$ & = & $0 \oplus 1 \oplus 0 \oplus 1$\\
+						\end{tabular}
+					\end{center}
+					\newpage
+					Calculando $k_1, k_2, k_3, k_4$, chegamos em:\\
 					\begin{center}
 						\begin{tabular}{ccl}
 							$k_1$ & = & $1$\\
