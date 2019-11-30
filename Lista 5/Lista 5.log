@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.16)  30 NOV 2019 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.16)  30 NOV 2019 17:48
 entering extended mode
 **"c:/Users/usuario/Documents/GitHub/MAC0344/Lista 5/Lista 5.tex"
 ("c:/Users/usuario/Documents/GitHub/MAC0344/Lista 5/Lista 5.tex"
@@ -149,21 +149,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
- [1
 
-{C:/Users/usuario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] ("c:/Users\usuario\Documents\GitHub\MAC0344\Lista 5\Lista 5.aux") ) 
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+[1
+
+{C:/Users/usuario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] ("c:/Users\usuario\Documents\GitHub\MAC0344\Lista 5\Lista 5.aux") ) 
 Here is how much of TeX's memory you used:
- 2588 strings out of 492452
- 35490 string characters out of 3129801
- 114852 words of memory out of 3000000
- 6931 multiletter control sequences out of 15000+200000
+ 2594 strings out of 492452
+ 35538 string characters out of 3129801
+ 116852 words of memory out of 3000000
+ 6937 multiletter control sequences out of 15000+200000
  5150 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,6n,37p,326b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "c:/Users\usuario\Documents\GitHub\MAC0344\Lista 5\Lista 5.pdf" (1 page, 27395 bytes).
+Output written on "c:/Users\usuario\Documents\GitHub\MAC0344\Lista 5\Lista 5.pdf" (2 pages, 33652 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
+ 17 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

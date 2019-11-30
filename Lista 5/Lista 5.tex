@@ -14,5 +14,42 @@ Lista de Exercícios No. 5
 
 \begin{document}
 	\maketitle
+    A instrução NOVA faz:
+    \begin{itemize}
+        \item[-]
+            Lê a memória M[0] e coloca o valor lido em AC,
+        \item[-]
+            Multiplica SP por 16 e coloca o resultado em SP,
+        \item[-]  
+            Calcula o valor SP como sendo SP + AC,
+        \item[-] 
+            Se SP for zero então soma 1 a AC
+            caso contrário faz AC igual a zero.
+        \item[-]
+            Retorna à posição 0.
+    \end{itemize}
+
+    Escrevendo em micro-assembler o trecho das micro-instruções que 
+    correspondem a execução de NOVA e supondo que o início desse trecho é na 
+    linha 21, temos:
+
+    \begin{itemize}
+        \item[-]
+            mar := M[0]; rd\\
+            rd\\
+        \item[-]
+            sp := lshift(sp + sp) \# Multiplica por 4\\
+            sp := lshift(sp + sp) \# Multiplica por 4\\
+        \item[-]  
+            sp := sp + ac\\
+        \item[-] 
+            alu := sp; if z then goto ??\\
+            ac := ac + 1\\
+            ac := 0\\
+        \item[-]
+            goto 0
+    \end{itemize}
+
+
 
 \end{document}
