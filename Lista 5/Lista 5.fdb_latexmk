@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1575384940 "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.tex" "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.pdf" "Lista 5" 1575384958
+["pdflatex"] 1575385376 "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.tex" "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.pdf" "Lista 5" 1575385376
   "/etc/texmf/web2c/texmf.cnf" 1573036590 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.aux" 1575384941 53 b17ec5e9c80a46e2a44b969fecad1094 ""
-  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.tex" 1575384957 1429 4b4ce1a7d280de06aa3c665c0a7bff5a ""
+  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.aux" 1575385376 53 b17ec5e9c80a46e2a44b969fecad1094 ""
+  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.tex" 1575385376 1402 e610e0babd8e2c42dea2627a1a5ec413 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1480098701 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1480098701 1288 655e228510b4c2a1abe905c368440826 ""
@@ -48,11 +48,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1573036695 2359383 9ab63e128d9bc6a2c579a1b3056af542 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1573036701 864872 538c81bc9eb7579ab00d571c15182467 ""
-  "Lista 5.aux" 1575384941 53 b17ec5e9c80a46e2a44b969fecad1094 ""
-  "Lista 5.tex" 1575384957 1429 4b4ce1a7d280de06aa3c665c0a7bff5a ""
+  "Lista 5.aux" 1575385376 53 b17ec5e9c80a46e2a44b969fecad1094 ""
+  "Lista 5.tex" 1575385376 1402 e610e0babd8e2c42dea2627a1a5ec413 ""
   (generated)
-  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.log"
-  "Lista 5.log"
-  "Lista 5.aux"
-  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.pdf"
   "Lista 5.pdf"
+  "Lista 5.aux"
+  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.log"
+  "/home/mateus/Programas/MAC0344/Lista 5/Lista 5.pdf"
+  "Lista 5.log"
