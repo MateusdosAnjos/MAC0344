@@ -33,21 +33,16 @@ Lista de Exercícios No. 5
     correspondem a execução de NOVA e supondo que o início desse trecho é na 
     linha 21, temos:
 
-    \begin{itemize}
-        \item[-]
-            21: mar := 0; rd\\
-            22: rd\\
-            23: ac := mbr\\
-        \item[-]
-            24: sp := lshift(sp + sp) \# Multiplica por 4\\
-            25: sp := lshift(sp + sp) \# Multiplica por 4\\
-        \item[-] 
-            26: sp := sp + ac; if z then goto 28\\
-        \item[-]
-            27: ac := 0; goto 0\\
-            28: ac := ac + 1; goto 0\\
-    \end{itemize}
-
-
-
+    \begin{center}
+        \begin{tabular}{ll}
+            21: &   mar := 0; rd                                \\
+            22: &   sp := lshift(sp + sp); rd                   \\
+            23: &   ac := mbr                                   \\
+            24: &   sp := lshift(sp + sp)                       \\
+            25: &   sp := sp + ac; if z then goto 27            \\
+            26: &   ac := 0; goto 0                             \\
+            27: &   ac := ac + 1; goto 0                        \\
+        \end{tabular}
+    \end{center}
+    
 \end{document}
